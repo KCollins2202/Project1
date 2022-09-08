@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<link rel="stylesheet " href="css/style.css" />
+    <header>
+    <h1>Best Pizza Ever!</h1>
+    <h3>Come get some, friend. </h3>
+</header>
+<main>
+    
+
+         <section id="contact-form" >
+            <h2>Place order</h2>
+            <form method="GET" action="place-order.php">
+
+                <h4>Delivery</h4>
+                <input name="DeliveryMethod" type="radio" value="Delivery" /> Delivery<br />
+                <input name="DeliveryMethod" type="radio" value="Pickup"/> Pickup<br />
+                <br><br/>
+
+
+                <input name="address1" placeholder="Address Line 1" class="lg-input" /><br />
+                <input name="address2" placeholder="Address Line2" class="lg-input"  /><br />
+
+                <input name="city" placeholder="city" class="sm-input" />
+                <input name="State" placeholder="state" class="sm-input" /><br />
+                <input name="Zip Code" placeholder="Zip Code" class="sm-input" />
+                <br><br/>
+
+
+
+            
+
+
+                <h4>Size</h4>   
+                <p>Please specify your Pizza Size below.</p>
+                <label for="pizza"> Choose Pizza Size:</label>
+                <select id="pizza" name="pizza">
+                    <option value="xLarge - Ksh 1500">xLarge - Ksh 1500</option>
+                    <option value="Large - Ksh 999">Large - Ksh 999</option>
+                    <option value="Medium - Ksh 699">Medium - Ksh 699</option>
+                    <option value="Small - Ksh 499">Small - Ksh 499</option>
+                </select>
+
+
+                <br><br />
+                </select>
+                <h2>Ingredients</h2>
+                <input name="Ingredients" type="checkbox" /> pepperoni<br />
+                <input name="Ingredients" type="checkbox" />salami <br />
+                <input name="Ingredients" type="checkbox" />bacon <br />
+                <input name="Ingredients" type="checkbox" />sausage <br />
+                <input name="Ingredients" type="checkbox" />onion <br />
+                <input name="Ingredients" type="checkbox" />peppers <br />
+          </section>
+
+          <br><br />
+          <button type="submit">place-order </button>
+
+          <footer>
+            <center>&copy 2022 <br />
+                <a href="#">Terms of service</a> 
+
+            </center>
+          </footer>
+        </main>
+</body>
+</html>
